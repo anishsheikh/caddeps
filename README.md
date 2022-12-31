@@ -49,6 +49,10 @@ if it says
       
       csh
       
+or
+      
+      tcsh
+      
 type this:
 
 
