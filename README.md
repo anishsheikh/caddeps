@@ -18,6 +18,10 @@ Enter in bash shell
       ./cad-setup-el9.sh 
 
 as user and give root passwords as it promts or execute as root
+and it will install most needed things .
+
+
+Some Additional Help TIPS:
 
 if you get errors like these :
 
