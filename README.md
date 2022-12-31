@@ -31,7 +31,7 @@ if you get errors like these :
       version `CXXABI_1.3.9' not found (required by /lib64/libGLU.so.1)
 
 
-Kindly do not look at the ceiling fan or listen to sad songs 
+Kindly do not look at the ceiling fan or listen to sad songs, 
 in the same shell type 
 
       echo $0
