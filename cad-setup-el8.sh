@@ -33,6 +33,8 @@ sudo dnf install apr-util -y
 sudo dnf install glibc-devel.i686 glibc-devel -y 
 sudo dnf install ncurses-compat-libs.x86_64 ncurses-compat-libs.i686 -y
 sudo dnf install openldap.x86_64 openldap.i686 -y
+sudo dnf install xz.x86_64 xz-lzma-compat.x86_64 xz-libs.x86_64 xz-devel.x86_64 -y
+sudo dnf install xz-devel.i686 xz-libs.i686 -y
 sudo rpm -Uvh ./compat-db-headers-4.7.25-28.el7.noarch.rpm
 sudo rpm -Uvh ./compat-db47-4.7.25-28.el7.x86_64.rpm
 sudo rpm -Uvh ./compat-libstdc++-33-3.2.3-72.el7.x86_64.rpm
@@ -60,6 +62,8 @@ sudo ln -s /usr/lib64/libssl.so.10 /usr/lib64/libssl.so.6
 sudo ln -s /usr/lib/libssl.so.10 /usr/lib/libssl.so.6
 sudo ln -s /usr/lib/libldap_r-2.4.so.2 /usr/lib/libldap_r-2.3.so.0
 sudo ln -s /usr/lib64/libldap_r-2.4.so.2 /usr/lib64/libldap_r-2.3.so.0
+sudo ln -s /lib/liblzma.so.5 /lib/liblzma.so.0
+sudo ln -s /lib/liblzma.so.5 /lib/liblzma.so.0
 
 
 echo "installing more dependencies"
