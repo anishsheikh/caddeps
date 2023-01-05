@@ -63,7 +63,7 @@ sudo ln -s /usr/lib/libssl.so.10 /usr/lib/libssl.so.6
 sudo ln -s /usr/lib/libldap_r-2.4.so.2 /usr/lib/libldap_r-2.3.so.0
 sudo ln -s /usr/lib64/libldap_r-2.4.so.2 /usr/lib64/libldap_r-2.3.so.0
 sudo ln -s /lib/liblzma.so.5 /lib/liblzma.so.0
-sudo ln -s /lib/liblzma.so.5 /lib/liblzma.so.0
+sudo ln -s /lib64/liblzma.so.5 /lib64/liblzma.so.0
 
 
 echo "installing more dependencies"
