@@ -108,6 +108,7 @@ sudo yum install -y dtc
 sudo ln -s /lib64/libtiff.so.5 /lib64/libtiff.so.3
 sudo ln -s /usr/lib64/libmpc.so.3 /usr/lib64/libmpc.so.2
 sudo yum install -y bison
+sudo dnf install -y motif.i686 motif.x86_64
 
   # For older GUIs (e.g. Stratus)
 sudo yum install -y libpng12 libpng12.i686
