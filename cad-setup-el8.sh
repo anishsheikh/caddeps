@@ -64,6 +64,8 @@ sudo ln -s /usr/lib/libldap_r-2.4.so.2 /usr/lib/libldap_r-2.3.so.0
 sudo ln -s /usr/lib64/libldap_r-2.4.so.2 /usr/lib64/libldap_r-2.3.so.0
 sudo ln -s /lib/liblzma.so.5 /lib/liblzma.so.0
 sudo ln -s /lib64/liblzma.so.5 /lib64/liblzma.so.0
+sudo ln -s /lib64/libtiff.so.5 /lib64/libtiff.so.3
+sudo ln -s /usr/lib64/libmpc.so.3 /usr/lib64/libmpc.so.2
 
 
 echo "installing more dependencies"
@@ -105,8 +107,7 @@ sudo yum install -y nspr-devel nspr-devel.i686
 sudo yum install -y tk tk-devel
 sudo yum install -y Xvfb
 sudo yum install -y dtc
-sudo ln -s /lib64/libtiff.so.5 /lib64/libtiff.so.3
-sudo ln -s /usr/lib64/libmpc.so.3 /usr/lib64/libmpc.so.2
+sudo yum install -y boost.x86_64 boost.i686
 sudo yum install -y bison
 sudo dnf install -y motif.i686 motif.x86_64
 
